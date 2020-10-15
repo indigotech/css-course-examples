@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Curso de CSS - Icons</title>
+    <meta charset="utf-8" />
+    <!-- Arquivos de suporte para a apresentação do material, não fazem parte do exercício -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/default.min.css"
+    />
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link href="../../ref.css" rel="stylesheet" type="text/css" />
+    <!-- --------------------------------------------------------------------------------- -->
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="ref main">
+      <div class="ref section">
+        <h1 class="ref h1">Ícones</h1>
+        <p class="ref body">
+          Uma das práticas mais comuns hoje é utilizar SVG como fonte de ícones.
+        </p>
+      </div>
+      <section class="ref section">
+        <h2 class="ref h2">Uso direto do SVG</h2>
+        <p class="ref body">
+          A primeira forma mais simples é colocar o conteúdo do SVG direto no
+          lugar onde se deseja renderizar o ícone.
+        </p>
+        <div class="ref card example">
+          <div class="ref icon-container">
+            <svg
+              class="ref icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <path
+                d="M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24 24-24h72v296c0 30.879 25.121 56 56 56h168zm0-344V0H152c-13.255 0-24 10.745-24 24v368c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24V128H344c-13.2 0-24-10.8-24-24zm120.971-31.029L375.029 7.029A24 24 0 0 0 358.059 0H352v96h96v-6.059a24 24 0 0 0-7.029-16.97z"
+              />
+            </svg>
+            Este é um ícone
+          </div>
+          <pre><code class="ref html">
+  &lt;svg class=&quot;icon&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 448 512&quot;&gt;
+    &lt;path d=&quot;M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24&quot; /&gt;
+  &lt;/svg&gt;
+          </code></pre>
+        </div>
+      </section>
+
+      <section class="ref section">
+        <h2 class="ref h2">Uso refernciado do SVG</h2>
+        <p class="ref body">
+          Uma segunda forma, para reaproveitar o mesmo SVG, é definindo
+          símboloes e referenciando-os.
+        </p>
+        <div class="ref card example">
+          <div class="ref icon-container">
+            <svg
+              class="ref icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+            >
+              <use xlink:href="#ic-bars" />
+            </svg>
+            Este é outro ícone
+            <svg class="ref hidden">
+              <symbol id="ic-bars">
+                <path
+                  d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"
+                />
+              </symbol>
+            </svg>
+          </div>
+          <pre><code class="ref html">
+  &lt;svg
+    class=&quot;icon&quot;
+    xmlns=&quot;http://www.w3.org/2000/svg&quot;
+    viewBox=&quot;0 0 448 512&quot;
+  &gt;
+    &lt;use xlink:href=&quot;#ic-bars&quot; /&gt;
+  &lt;/svg&gt;
+
+  &lt;svg class=&quot;hidden&quot;&gt;
+    &lt;symbol id=&quot;ic-bars&quot;&gt;
+      &lt;path
+        d=&quot;M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24&quot;
+      /&gt;
+    &lt;/symbol&gt;
+  &lt;/svg&gt;
+          </code></pre>
+        </div>
+      </section>
+
+      <section class="ref section">
+        <h2 class="ref h2">Via CSS</h2>
+        <p class="ref body">
+          Uma terceira forma é utilizando o pseudo-elemento
+          <code class="ref css">:hover</code> e usando como o SVG como background
+        </p>
+        <div class="ref card example">
+          <div class="ref icon-container">
+            <span class="ref icon icon-home" aria-hidden="true"></span> Um terceiro
+            exemplo
+          </div>
+          <pre><code class="ref html">
+  &lt;span class=&quot;icon icon-home&quot; aria-hidden=&quot;true&quot;&gt;Um terceiro exemplo&lt;/span&gt;
+          </code></pre>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
