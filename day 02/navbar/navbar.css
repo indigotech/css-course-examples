@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+}
+
+
+.navbar {
+    background-color: #FFFFFF;
+    padding: auto 0;
+    text-align: right;
+    padding-right: 250px;
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-end; */
+    
+}
+
+ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    padding: 0px;
+    
+
+}
+
+
+li {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: 200;
+    padding: auto 0;
+
+}
+
+li:hover {
+    color: #24BEE8;
+    cursor: pointer;
+
+    
+}
+

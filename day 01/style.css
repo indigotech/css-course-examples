@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 30px;
+
+}
+
+.card {
+    background-color: #24BEE8;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    color: white;
+    font-weight: normal;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+input {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+input:hover {
+    background-color: #14AEC8;
+    cursor: pointer;
+    
+}
+

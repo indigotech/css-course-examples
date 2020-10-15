@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 200px;
+    text-align: center;
+    background-color: #222222;
+}
+ul {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: b;
+    
+}
+
+
+li {
+    padding: 10px;
+    color: #DDDDDD;
+}
+
+li:hover {
+    background-color: #DDDDDD;
+    cursor: pointer;
+    color: #333333;
+}
+
