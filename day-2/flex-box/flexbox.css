@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.container {
+    height: 100vh;
+    border: 2px solid red;
+    display: flex;
+    justify-content: space-around;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+}
+
+.blue {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+
