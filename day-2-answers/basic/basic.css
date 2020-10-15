@@ -3,7 +3,10 @@
 /* reset de margens e configurações padrões */
 h1, .h1,
 h2, .h2,
-h3, .h3 {
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
 
@@ -36,7 +39,19 @@ h3, .h3 {
   font-size: calc(16px * 1.75);
 }
 
-.label {
+h4, .h4 {
+  font-size: calc(16px * 1.5);
+}
+
+h5, .h5 {
+  font-size: calc(16px * 1.25);
+}
+
+h6, .h6 {
+  font-size: calc(16px * 1);
+}
+
+label, .label {
   font-family: "Montserrat", sans-serif;
   font-size: calc(16px * 0.75);
 
@@ -63,21 +78,56 @@ button:disabled {
   cursor: initial;
 }
 
-button.large {
+button.btn-small {
+  padding: 6px 14px;
+}
+
+button.btn-large {
   padding: 12px 20px;
 }
 
-button.primary {
+button.btn-primary {
+  color: white;
+  background-color: #007bff;
+}
+button.btn-primary:hover {
+  background-color: #0069d9;
+}
+button.btn-primary:active {
+  background-color: #007bff;
+}
+button.btn-primary:disabled,
+button.btn-primary:hover:disabled {
+  background-color: #6caaff;
+}
+
+button.btn-secondary {
   color: white;
   background-color: #6c757d;
 }
-button.primary:hover {
+button.btn-secondary:hover {
   background-color: #5a6268;
 }
-button.primary:active {
+button.btn-secondary:active {
   background-color: #6c757d;
 }
-button.primary:disabled,
-button.primary:hover:disabled {
+button.btn-secondary:disabled,
+button.btn-secondary:hover:disabled {
   background-color: #6c757d;
+}
+
+button.btn-neutral {
+  color: #212529;
+  background-color: #f8f9fa;
+}
+button.btn-neutral:hover {
+  background-color: #e2e6ea;
+}
+button.btn-neutral:active {
+  background-color: #dae0e5;
+}
+button.btn-neutral:disabled,
+button.btn-neutral:hover:disabled {
+  color: #6f7275;
+  background-color: #fafbfc;
 }

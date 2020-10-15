@@ -4,6 +4,7 @@
   --red-light: #fc6d6c;
   --red: #f54645;
   --blue-lighter: #737b8c;
+  --blue-lighter-rgb: 115, 123, 140;
   --blue-light: #323b4c;
   --blue-light-rgb: 73, 80, 93;
   --blue-dark: #1c212b;
@@ -226,4 +227,24 @@ body {
 .ref.btn-neutral:hover:disabled {
   color: var(--font-secondary-color);
   background-color: var(--light-gray);
+}
+
+/** inputs **/
+input.ref {
+  font-size: calc(var(--font-size-base) * 0.8);
+}
+
+.ref.input {
+  display: block;
+  width: 100%;
+  padding: 0.75em 1em;
+  color: var(--font-primary-color);
+  background-color: var(--bg-secondary-color);
+  border: 1px solid var(--blue-lighter);
+  border-radius: var(--sizing-small);
+}
+
+.ref.input:focus {
+  outline: 0;
+  box-shadow: 0px 0px 0px 2px rgba(var(--blue-lighter-rgb), 0.2);
 }
