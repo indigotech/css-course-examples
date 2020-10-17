@@ -1,0 +1,16 @@
+body {
+  margin-top: calc(50vh - 200px);
+}
+
+#pai {
+  height: 400px;
+  background-color: khaki;
+  width: 400px;
+  margin: 0 auto;
+}
+
+#filho {
+  height: 100px;
+  width: 100px;
+  background-color: olivedrab;
+}

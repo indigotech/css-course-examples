@@ -1,12 +1,11 @@
-
 .section-title {
-    font-family: sans-serif;
-    margin: 25px;
-    font-size: 3rem;
+  font-family: sans-serif;
+  margin: 25px;
+  font-size: 3rem;
 }
 
 .cards-wrapper {
-    display: flex;
-    justify-content: space-around;
-    padding: 10%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10%;
 }

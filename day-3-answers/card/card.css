@@ -1,66 +1,62 @@
 body {
-    background-color: #EEE;
+  background-color: #eee;
 }
 
 .card {
-    background-color: transparent;
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    font-family: 'Work Sans', sans-serif;
-    transition: box-shadow 0.3s, background-color 0.3s;
-}   
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  transition: box-shadow 0.3s, background-color 0.3s;
+}
 
 .card:hover {
-    background-color: white;
-    box-shadow: 5px 5px 20px;
-    cursor: pointer;    
+  background-color: white;
+  box-shadow: 5px 5px 20px;
+  cursor: pointer;
 }
 
 .tag {
-    background-color: #2e2f35;
-    height: 32px;
-    width: fit-content;
-    border-radius: 16px;
-    display: flex;
-    align-items: center;
-    padding: 1px 16px;
+  background-color: #2e2f35;
+  height: 32px;
+  width: fit-content;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  padding: 1px 16px;
 }
 
 .circle {
-    height: 20px;
-    width: 20px;
-    border-radius: 10px;
-    background-color: #fe763e;
-    margin-right: 10px;
-    
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background-color: #fe763e;
+  margin-right: 10px;
 }
 
 .course {
-    color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .icon {
-    font-size: 50px;
-    margin-right: 20px;
-    color: #2e2f35;
+  font-size: 50px;
+  margin-right: 20px;
+  color: #2e2f35;
 }
 
 .module-wrapper {
-    display: flex;
-
+  display: flex;
 }
 
-.infos{
-    display: flex;
-    flex-direction: column;
+.infos {
+  display: flex;
+  flex-direction: column;
 }
 
 .module {
-    font-size: 1.2rem;
-    font-weight: bold;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
