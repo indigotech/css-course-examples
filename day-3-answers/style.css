@@ -128,6 +128,7 @@ body {
 
   font-family: Montserrat, sans-serif;
   font-size: 1rem;
+  white-space: nowrap;
 }
 
 .btn-primary {
@@ -158,7 +159,7 @@ body {
 }
 
 .header {
-  padding: 1.5rem;
+  padding: 1.5rem 2.5rem;
 }
 
 .footer {
@@ -187,13 +188,39 @@ body {
   color: var(--txt-primary-color-contrast);
 }
 
+.hero .display {
+  padding-top: 8rem;
+  padding-bottom: 11rem;
+  max-width: 60%;
+}
+
 /* Outros componentes */
 .logo {
   font-size: 2rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .nav-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
+.navbar .nav-item:not(:first-child) {
+  margin-left: 0.5rem;
+}
+
 .nav-item {
   display: inline-block;
+  padding: 0.5rem;
 }
 
 .section {
@@ -204,7 +231,50 @@ body {
   color: var(--txt-primary-color);
 }
 
-.callout {
+.disclaimer {
+  padding-bottom: 8.5rem;
+  padding-top: 2rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disclaimer .callout {
   font-size: 4.5rem;
   font-weight: 100;
+  max-width: 50%;
+}
+
+.institutional {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6.5rem;
+}
+
+/* Hero image */
+
+#hero-image {
+  width: 35%;
+  height: 110%;
+  
+  background-color: #dee2e5;
+  border-bottom-left-radius: 2.5rem;
+  border-top-left-radius: 2.5rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero #hero-image {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
