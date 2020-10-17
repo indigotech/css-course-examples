@@ -1,0 +1,44 @@
+body {
+    background-color: #EEE;
+}
+
+.card {
+    background-color: #FFFFFF;
+    font-family: 'Work Sans', sans-serif;
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    
+}   
+
+.tag {
+    background-color: #9999FF;
+    border-radius: 12px;
+    
+}
+
+.circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #5555FF;
+    
+}
+
+.course {
+    color: #FFFFFF;
+    margin: auto 20px;
+
+}
+
+.css {
+    font-size: 50px;
+    margin-right: 20px;
+    color: #5555FF;
+}
+
+.module {
+    color: #5555FF;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
