@@ -1,0 +1,88 @@
+body {
+
+}
+
+body {
+    background-color: #EEE;
+}
+
+.explore {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.section-title {
+    font-family: sans-serif;
+    margin: 25px;
+    font-size: 3rem;
+}
+
+.course-modules {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Work Sans', sans-serif;
+    background-color: transparent;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}   
+
+.card:hover {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    cursor: pointer;
+}
+
+.tag {
+    background-color: #9999FF;
+    height: 30px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    max-width: fit-content;
+    padding: 1px 10px;
+    
+}
+
+.tag .circle {
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #5555FF;
+    margin-right: 8px;
+    
+}
+
+.tag span {
+    color: #FFFFFF;
+
+}
+
+.tech-icon {
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+
+.module-wrapper {
+    display: flex;
+
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+}
+
+.module {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
