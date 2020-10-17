@@ -1,0 +1,42 @@
+:root {
+  /* Cores */
+
+  --white: #fff;
+  --gray-lighter: #f8f8fa;
+  --gray-light: #dadbdd;
+  --gray: #999999;
+  --gray-darker: #2e2f35;
+  --orange: #fe763e;
+
+  /* Cores de fundo */
+  --bg-white-color: var(--white);
+  --bg-gray-color: var(--gray-lighter);
+  --bg-dark-color: var(--gray-darker);
+
+  /* Cores da marca */
+  --primary-color: var(--orange);
+
+  /* Core de texto */
+  --txt-primary-color: var(--gray-darker);
+  --txt-primary-color-contrast: var(--white);
+  --txt-secondary-color: var(--gray-dark);
+  --txt-light-color: var(--gray-darker);
+}
+
+body {
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+
+.display {
+  color: var(--white);
+  font-size: 4em;
+}
+
+.section.title {
+  
+}
