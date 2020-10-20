@@ -1,4 +1,6 @@
 .box {
   width: 100px;
   height: 100px;
+  background-color: #ccc;
+  border: 1px solid #aaa;
 }

@@ -17,3 +17,13 @@ nav {
   padding: 16px;
   color: #eaeaea;
 }
+
+header.fixed {
+  position: fixed;
+  width: 100%;
+}
+
+header.sticky {
+  position: sticky;
+  top: 10px;
+}

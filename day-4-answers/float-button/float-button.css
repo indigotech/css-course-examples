@@ -11,3 +11,14 @@
 .float-button:focus {
   outline: none;
 }
+
+.float-button {
+  position: fixed;
+  bottom: 35px;
+  right: 35px;
+}
+
+#content {
+  width: 150px;
+  background-color: #ccc;
+}

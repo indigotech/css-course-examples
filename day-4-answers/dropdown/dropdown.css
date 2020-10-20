@@ -1,0 +1,36 @@
+.dropdown button {
+  border: none;
+  background-color: #406c6b;
+  color: #fff;
+  padding: 8px 24px;
+}
+
+.dropdown-list {
+  border: 1px solid #eaeaea;
+  background-color: #fff;
+}
+
+.dropdown-item {
+  padding: 8px;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-list {
+  position: absolute;
+  min-width: 200px;
+  display: none;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-list {
+  display: block;
+}

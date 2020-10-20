@@ -22,4 +22,14 @@
 
 #content {
   padding: 20px;
+  margin-left: 100px;
+}
+
+#side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  width: 100px;
+  min-height: 100vh;
 }
