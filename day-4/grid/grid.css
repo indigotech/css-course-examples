@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 3em;
+}
+
+/*  grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 20vh 60vh 20vh;
+    grid-gap: 10px;
+}
+
+.header {
+    background-color: red;
+    
+    
+}
+.aside-left {
+    background-color: blue;
+    
+}
+
+.aside-right {
+    background-color: blue;
+    
+}
+
+.main {
+    background-color: green;
+    
+    
+}
+
+.footer {
+    background-color: yellow;
+    
+}
+
+
+
