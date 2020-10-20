@@ -1,0 +1,25 @@
+#side-menu {
+  background-color: #11111e;
+}
+
+#side-menu ul {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+
+.menu-item {
+  padding: 8px;
+  color: #d8d8da;
+}
+
+.menu-item:hover {
+  padding: 8px;
+  background-color: #fff;
+  color: #11111e;
+}
+
+#content {
+  width: 100%;
+}

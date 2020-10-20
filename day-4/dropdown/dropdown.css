@@ -1,0 +1,19 @@
+.dropdown button {
+  border: none;
+  background-color: #406c6b;
+  color: #fff;
+  padding: 8px 24px;
+}
+
+.dropdown-list {
+  border: 1px solid #eaeaea;
+}
+
+.dropdown-item {
+  padding: 8px;
+  text-align: center;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea;
+}

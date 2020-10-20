@@ -1,0 +1,13 @@
+.float-button {
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  border-radius: 10000px;
+  border: none;
+  background-color: #243aaa;
+  cursor: pointer;
+}
+
+.float-button:focus {
+  outline: none;
+}
